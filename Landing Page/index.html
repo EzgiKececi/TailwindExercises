@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Landing Page</title>
+</head>
+<body class="bg-gray-200">
+    <nav class="container mx-auto flex flex-row gap-5 p-3 bg-white items-center justify-center">
+        <div class="ml-5">
+            <i class="fa-solid fa-web-awesome"></i>
+        </div>
+        <div class="ml-auto flex self-end gap-6 px-3">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <button class="bg-indigo-500 hover:bg-indigo-800 text-white rounded px-3">Sign Up</button>
+        </div>       
+    </nav>
+
+    <section class="container mx-auto grid grid-cols-2 p-3 gap-3  justify-evenly">
+        <div class="flex flex-col bg-white justify-center items-center p-3 space-y-5">
+            <h4 class="text-xs text-center text-blue-700">Mamba design center</h4>
+            <h2 class="text-xl text-center text-black-800 font-bold">Build it with Mamba</h2>
+            <br>
+            <h4 class="text-xs text-center text-black-700">Moduler and versatile.The ultimate design toolkit for savy technology startups. </h4>
+            <input type="text" class="bg-gray-200 font-thin w-full mt-2 " placeholder="Your name">
+            <input type="text" class="bg-gray-200 font-thin w-full mt-2 " placeholder="E-mail adress">          
+        </div>
+        <div class="flex justify-center bg-gray-300">
+            <img src="https://picsum.photos/200/300">
+        </div>
+    </section>
+
+    <section class="container mx-auto text-center p-3">
+        <p class="text-thin text-blue-500">HOW IT WORKS?</p>
+        <h2 class=" text-xl font-bold">Building with Mamba is simple</h2>
+    </section>
+
+    <section class="container mx-auto flex flex-row-3 gap-1 justify-around">
+        <div class="flex flex-col m-3 p-5 rounded shadow bg-gray-100">
+            <div class="flex bg-white-600 justify-self-item">
+                <div class="flex rounded-full w-6 h-6 bg-blue-600 justify-self-item justify-center items-center">1</div>
+            </div>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="flex flex-col m-3 p-5 rounded shadow bg-gray-100">
+            <div class="flex bg-white-600 justify-self-item">
+                <div class="flex rounded-full w-6 h-6 bg-blue-600 justify-self-item justify-center items-center">2</div>
+            </div>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, animi?</p>
+        </div>
+        <div class="flex flex-col m-3 p-5 rounded shadow bg-gray-100">
+            <div class="flex bg-white-600 justify-self-item">
+                <div class="flex rounded-full w-6 h-6 bg-blue-600 justify-self-item justify-center items-center">3</div>
+            </div>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, delectus rem.</p>
+        </div>
+    </section>
+
+    <section class="container mx-auto rounded p-4 bg-gray-50">
+        <h2 class="font-bold text-3xl">Create with us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ducimus aut distinctio animi, adipisci placeat possimus saepe est! Corrupti nemo perspiciatis temporibus possimus enim aliquid dolores magnam et impedit quisquam!</p>
+    </section>
+    <section class="container flex mx-auto justify-between my-5 gap-8" id="section-1">
+        <div class="w-6/12 h-72 ">
+            <img src="https://picsum.photos/300/500" class=" mx-auto w-full h-full object-cover rounded-md" alt="">
+        </div>
+        <div class="w-6/12 h-72 rounded bg-slate-100 flex flex-col">
+            <div class="flex items-center justify-center ms-8 mt-5 w-20 h-8 bg-blue-500 text-white rounded-xl font-medium">
+                Business
+            </div>
+            <p class="mt-3 ms-8 text-start text-2xl font-bold">
+                Curating a workplace that inspires team movement<br>for savvy technology startups.
+            </p>
+            <div class="mt-auto mb-0">
+                <p class="font-thin mx-8">November 30, 2020</p>
+                <p class="font-thin mx-8">Leroy Jenkins</p>
+            </div>
+        </div>
+    </section>
+    <section class="flex container mx-auto gap-5">
+        <div class="bg-gray-100 rounded-sm p-6 ">
+            <p class=""><strong>Panel-based blocks.</strong>Flexible panels that are perfect for building functional layouts.</p>
+        </div>
+        <div class="bg-gray-100 rounded-sm p-6 ">
+            <p class=""><strong>Responsive design.</strong>Panels look great no matter the device.</p>
+        </div>
+        <div class="bg-gray-100 rounded-sm p-6 ">
+            <p class=""><strong>Premium support.</strong>Join over 50 000 stasified customers who use our templates.</p>
+        </div>
+    </section>
+    <section class="container mx-auto bg-slate-100 my-12">
+        <h2 class="text-4xl text-center pt-12 font-bold">
+            Our team is here to help you.
+        </h2>
+        <p class="font-thin my-4 text-center">Meet our crew ></p>
+        <img src="https://picsum.photos/500/700" class="w-full h-60">
+    </section>
+    <footer class="bg-slate-100 flex container mx-auto rounded-sm p-6 justify-between">
+        <p class="font-bold">Mamba</p>
+        <div class="socials">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </footer>
+</body>
+</html>
